@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/tickets/6
+method: GET
+order: 4478885815170943

@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/auth/login
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "email": "customer2@example.com",
+      "password": "Password@123"
+    }
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 4466646222827567

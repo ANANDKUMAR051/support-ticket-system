@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:5000/api/tickets/6
+method: PUT
+body:
+  type: json
+  content: ""
+order: 4425909034646939
